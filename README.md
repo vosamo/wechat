@@ -15,4 +15,4 @@
 
 获取access_token:GET方法请求https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s' % (APPID,APPSECRET)
 
-至于法消息的接口和消息格式参考微信公众平台开发文档。
+至于发消息的接口和消息格式参考微信公众平台开发文档。
