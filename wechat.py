@@ -7,8 +7,8 @@ import time
 import datetime
 
 # 公众平台测试号信息
-APPID = 'wx420f87030dc32a12'
-APPSECRET = '8aded51c197232843290336ca42c8ab6'
+APPID = 'xxxx'
+APPSECRET = 'xxxx'
 TOKEN_FILE = 'token.txt'
 
 def build_time_interval(interval):
