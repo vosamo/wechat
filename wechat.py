@@ -90,9 +90,9 @@ def weixin_push(content):
             "msgtype":"text"
 
     }
-    data = json.dumps(data)
-    f = urllib2.urlopen(push_url, data)
+    #f = urllib2.urlopen(push_url, data)
+    f = urllib2.urlopen(push_url, json.dumps(data, ensure_ascii=False, indent=2))
     j = f.read()
     print j
 if __name__ == '__main__':
-    weixin_push('nihao')
+    weixin_push('你好')
